@@ -21,7 +21,7 @@ import JsSait from "../page/Web-dev-instructions/JsSait";
 import ReactSait from "../page/Web-dev-instructions/ReactSait";
 import Faq from "../components/common/Faq";
 
-const routes = [
+const Routes = [
   {
     path: "/",
     element: (
@@ -87,4 +87,4 @@ const routes = [
   {path: "/faq", element: <Faq />}
 ];
 
-export default routes;
+export default Routes;
