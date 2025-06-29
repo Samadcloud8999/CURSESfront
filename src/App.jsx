@@ -5,8 +5,13 @@ import Header from "./components/organism/Header";
 import routes from "./routes/Routes";
 import ChatbaseWidget from "./components/chatbot/ChatbaseWidget";
 import Footer from "./components/common/Footer";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    document.title = "FrontSam";
+  }, []);
+
   return (
     <Router>
       <Header />
@@ -15,7 +20,6 @@ function App() {
           <Route key={route.path} path={route.path} element={route.element} />
         ))}
       </Routes>
-
       <ChatbaseWidget />
       <Footer />
     </Router>
