@@ -83,7 +83,7 @@ export const Faq = () => {
             className="inline-flex items-center space-x-2 bg-gradient-to-r from-fuchsia-400 to-pink-400 text-white font-semibold py-3 px-6 rounded-lg hover:from-fuchsia-500 hover:to-pink-500 transition-all duration-300"
           >
             <FaRocket />
-            <span>Начать обучение</span>
+            <span>Начать обучения</span>
           </a>
         </div>
       </div>
