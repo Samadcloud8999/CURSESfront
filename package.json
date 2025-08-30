@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "vercel-build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@eslint/config-array": "latest",
     "@eslint/object-schema": "latest",
